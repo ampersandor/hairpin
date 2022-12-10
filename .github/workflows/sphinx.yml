@@ -11,7 +11,7 @@ jobs:
       - name: Build HTML
         uses: ammaraskar/sphinx-action@0.4
         with:
-          pre-build-command: "sphinx-apidoc -f -e -o source doc_test/"
+          pre-build-command: "sphinx-apidoc -f -e -o source doc_test; pip3 install requirements.txt"
           docs-folder: "docs/"
           build-command: "make html"
       - name: Upload artifacts
