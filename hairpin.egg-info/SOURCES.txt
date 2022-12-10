@@ -1,0 +1,6 @@
+README.md
+setup.py
+hairpin.egg-info/PKG-INFO
+hairpin.egg-info/SOURCES.txt
+hairpin.egg-info/dependency_links.txt
+hairpin.egg-info/top_level.txt

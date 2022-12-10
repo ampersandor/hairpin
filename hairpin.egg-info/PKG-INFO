@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hairpin
+Version: 2.0.0
+Summary: hairpin calculator
+Home-page: https://github.com/ampersandor/hairpin
+Author: ampersandor
+Author-email: ddong3525@gmail.com
+License: UNKNOWN
+Description: ![Alt text](./src/hairpin.jpg?raw=true "Hairpin with numpy visualization")
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
