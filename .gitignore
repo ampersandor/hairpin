@@ -1,0 +1,12 @@
+## Hairpin Ignore File ##
+.venv/
+*.log
+*.bak
+dist/
+tom.egg-info/
+__pycache__/
+.idea/
+.coverage
+*.xlsx
+docs/_build
+docs/_autosummary
