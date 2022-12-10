@@ -1,0 +1,9 @@
+.wy-nav-content {
+    max-width: 90% !important;
+    min-height: fit-content;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    height: 100%;
+}
+
+.sphinxsidebarwrapper {  overflow-y: scroll; }
