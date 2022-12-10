@@ -18,11 +18,11 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: html-docs
-          path: build/html/
+          path: _build/html/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master' # Set a branch name to trigger deployment
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/html
+          publish_dir: _build/html
 
